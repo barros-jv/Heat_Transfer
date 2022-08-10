@@ -1,0 +1,5 @@
+# ignorar todos os arquivos contidos em pastas '.ipynb_checkpoints'
+
+/**/.ipynb_checkpoints/*
+/Deterministicos/.ipynb_checkpoints/*
+/Heuristicos/.ipynb_checkpoints/*
