@@ -33,8 +33,8 @@ Ellipse(2) = {5, 1, 1, 3};
 Ellipse(3) = {3, 1, 1, 4};
 Ellipse(4) = {4, 1, 1, 2};
 
-Point(6)  = {0.0,  -0*L, 0.0,  wall}; // p1
-Point(7)  = {4*L, -0*L, 0.0,  wall}; // p2
+Point(6)  = {0.0, 0.0, 0.0,  wall}; // p1
+Point(7)  = {4*L, 0.0, 0.0,  wall}; // p2
 Point(8)  = {4*L,  1*L, 0.0,  wall}; // p3
 Point(9)  = {0.0,   1*L, 0.0,  wall}; // p4
 
@@ -43,8 +43,8 @@ Line(6) = {8, 7};
 Line(7) = {9, 8};
 Line(8) = {6, 9};
 //+
-Curve Loop(1) = {7, 6, 5, 8};
-Curve Loop(2) = {4, 1, 2, 3};
+Line Loop(1) = {5, 6, 7, 8};
+Line Loop(2) = {1, 2, 3, 4};
 Plane Surface(1) = {1, 2};
 
 //+
